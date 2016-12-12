@@ -28,6 +28,8 @@ public class TankHealth : MonoBehaviour
 
     private void OnEnable()
     {
+
+        // Когда срабатывает ещё не понятно
         m_CurrentHealth = m_StartingHealth;
         m_Dead = false;
 
